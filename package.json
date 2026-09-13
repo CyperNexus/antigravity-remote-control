@@ -1,0 +1,19 @@
+{
+  "name": "antigravity-remote-control",
+  "version": "1.0.0",
+  "description": "Event-Driven Remote Control Loop Skill for Antigravity AI Agent",
+  "main": "index.js",
+  "bin": {
+    "antigravity-remote": "./bin/cli.js"
+  },
+  "keywords": [
+    "antigravity",
+    "agent",
+    "remote-control",
+    "skill",
+    "loop"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
