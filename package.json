@@ -1,6 +1,6 @@
 {
   "name": "antigravity-remote-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Event-Driven Remote Control Loop Skill for Antigravity AI Agent",
   "main": "bin/cli.js",
   "bin": "./bin/cli.js",

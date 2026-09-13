@@ -21,13 +21,24 @@ Skill sẽ được tự động cài đặt vào thư mục `~/.gemini/config/s
 
 ## 🚀 Hướng dẫn sử dụng
 
-Sau khi cài đặt, bạn chỉ cần mở Antigravity và gõ:
+Sau khi cài đặt, bạn có thể kích hoạt Skill bằng một trong các cách sau:
+
+### Cách 1: Sử dụng Slash Command
+Gõ trực tiếp slash command:
+```text
+/remote-control-loop
+```
+
+### Cách 2: Sử dụng câu lệnh tự nhiên
+Nhắn trực tiếp trong khung chat:
 > *"Bật remote"* hoặc *"Kích hoạt remote skill"*
 
-Antigravity sẽ:
-1. Tự động khởi chạy Web Server ngầm ở địa chỉ `http://localhost:8000`.
-2. Đi vào trạng thái chờ lệnh `python wait_task.py` (0 Token Usage).
-3. Mở trình duyệt điện thoại truy cập vào địa chỉ Web để gửi prompt và nhận phản hồi real-time!
+---
+
+### Quy trình hoạt động tự động:
+1. Antigravity sẽ tự động khởi chạy Web Server ngầm ở địa chỉ `http://localhost:8000`.
+2. Đi vào trạng thái chờ lệnh `python wait_task.py` (**0 Token LLM Usage**).
+3. Mở trình duyệt trên điện thoại/máy tính khác truy cập vào `http://<IP-MÁY-TÍNH>:8000` để gửi prompt và xem phản hồi real-time!
 
 ---
 
